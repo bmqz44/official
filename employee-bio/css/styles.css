@@ -1,0 +1,42 @@
+a {
+	color: hsla(175, 60%, 44%, 1);
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.bio {
+	width: 350px;
+	font-family: 'Alegreya', serif;
+	float: left;
+	margin: 20px;
+}
+
+.bio:nth-child(odd){
+	background-size: 100%;
+} 
+.bio header img {
+	max-width: 100%;
+	border-radius: 20px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+}
+
+.bio header h1,
+.bio header h2{
+	margin: 0;
+}
+
+.bio header h1{
+}
+
+.bio header h2{
+	font-weight: 200;
+}
+
+.bio footer {
+	background-color: hsla(0, 0%, 0%, 1);
+	padding: 10px;
+}
