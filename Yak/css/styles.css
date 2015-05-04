@@ -1,0 +1,82 @@
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#friends li li::before, #friends li li::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0px;
+}
+
+#friends li, #friends li button {
+  background-image: linear-gradient(pink, purple);
+}
+
+#friends li, #friends li img, #friends li button {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+body {
+  background-color: #c80e09;
+}
+
+#friends {
+  width: 252px;
+}
+#friends ul {
+  padding: 0;
+  margin: 0;
+}
+#friends li {
+  background-image: linear-gradient(#f52e28, black);
+  padding: 8px;
+  color: white;
+}
+#friends li.active {
+  background-image: linear-gradient(#1c1c1c, #c80e09);
+}
+#friends li img {
+  width: 50px;
+  float: left;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+#friends li h2, #friends li h3 {
+  margin: 0;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+#friends li h2 {
+  font-weight: 890;
+}
+#friends li h3 {
+  font-weight: 130;
+}
+#friends li li div:first-of-type {
+  width: 150px;
+  float: left;
+}
+#friends li li div:last-of-type {
+  float: right;
+}
+#friends li button {
+  border-width: 4px;
+  border-style: groove;
+  border-color: white;
+  background-color: #1c1c1c;
+  color: white;
+  border-radius: 30px;
+}
+
+/*# sourceMappingURL=styles.css.map */
